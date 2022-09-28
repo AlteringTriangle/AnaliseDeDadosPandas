@@ -5,3 +5,4 @@ import seaborn as sns
 
 pokemon = pd.read_csv('pokemon.csv')
 
+print(pokemon.to_dict())
